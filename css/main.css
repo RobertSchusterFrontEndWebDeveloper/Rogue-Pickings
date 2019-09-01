@@ -1,0 +1,63 @@
+/*  Rogue Pickings CSS Styles  */
+
+
+nav {font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #77a466;
+    text-align: right;
+}
+
+
+h1 {font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #77a466;
+    text-transform: uppercase;
+}
+
+h2 { font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #77a466;
+    text-transform: uppercase;
+
+}
+
+h3 { font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+
+}
+
+h4 { font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #77a466;
+
+}
+
+h5 { font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color; #000000;
+    text-align: center;
+
+}
+
+h6 { font-family: 'Pinyon Script', cursive;
+    font-size: 16px;
+    font-variant: normal;
+    color: #77a466;
+    text-align: inherit;
+}
+
+p  {font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+    color: #000000;
+
+}

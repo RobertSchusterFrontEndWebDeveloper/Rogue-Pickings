@@ -1,7 +1,7 @@
 /*  Rogue Pickings CSS Styles  */
 
 
-nav {font-family: 'Montserrat', sans-serif;
+nav { font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: bold;
     color: #77a466;
@@ -9,7 +9,7 @@ nav {font-family: 'Montserrat', sans-serif;
 }
 
 
-h1 {font-family: 'Montserrat', sans-serif;
+h1 { font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: bold;
     color: #77a466;
@@ -55,9 +55,8 @@ h6 { font-family: 'Pinyon Script', cursive;
     text-align: inherit;
 }
 
-p  {font-family: 'Montserrat', sans-serif;
+p  { font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: regular;
     color: #000000;
-
 }

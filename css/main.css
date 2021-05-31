@@ -1,63 +1,199 @@
-/*  Rogue Pickings CSS Styles  */
-
-
-nav { font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    color: #77a466;
-    text-align: right;
-    font-style: normal;
+html {
+      font-size: 16px;
 }
 
-
-h1 { font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    color: #77a466;
-    text-transform: uppercase;
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column;
+      font-size: 1em;
 }
 
-h2 { font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    color: #77a466;
-    text-transform: uppercase;
-
+.container{
+	max-width: 1200px;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+	margin: 0 auto;
 }
 
-h3 { font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    color: #000000;
-    text-transform: uppercase;
-
+h1,
+h2,
+h3 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 1.88em;
+}
+h2 {
+	font-size: 1.13em;
+}
+h3 {
+	font-size: .75em;
 }
 
-h4 { font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: normal;
-    color: #77a466;
-
+p {
+	font-size: .94em;
+	line-height: 1.313em;
+    padding: 0 1.88em;
 }
 
-h5 { font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color; #000000;
-    text-align: center;
-
+/*The widths are in a percentage!*/
+header {
+	height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column;
+	border-bottom: .19em solid #77a466;
+      width: 100%;
 }
 
-h6 { font-family: 'Pinyon Script', cursive;
-    font-size: 16px;
-    font-variant: normal;
-    color: #77a466;
-    text-align: inherit;
+header h1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row nowrap;
+}
+header h1 span {
+	color: #77a466;
 }
 
-p  { font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: regular;
-    color: #000000;
+header nav {
+}
+header nav ul {
+}
+header nav ul li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .94em;
+	padding: .5em .63em;
+      list-style: none;
+      width: 50%;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+}
+
+.main-image {
+	height: auto;
+}
+.main-image img {
+	width: 100%;
+	border-bottom: .19em solid #77a466;
+}
+
+.main-title {
+	height: auto;
+      /*
+	float: left;*/
+}
+.main-title h2 {
+	text-align: left;
+	padding: .31em 0;
+	color: #77a466;
+}
+.main-title p {
+	padding: 0;
+	font-size: 1em;
+	line-height: 1.56em;
+}
+
+.section-one,
+.section-two,
+.section-three {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+	width: 95%;
+	height: auto;
+      /*
+	float: left;*/
+	border-top: .06em solid #eee;
+}
+
+.section-one h3 {
+	padding: .63em 0;
+}
+
+.section-two {
+	border-left: .06em solid #eee;
+	border-right: .06em solid #eee;
+}
+
+.section-two h3,
+.section-three h3 {
+	padding: .63em 1.88em;
+}
+
+.menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-flow: column;
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: .63em 0;
+	color:#77a466;
+}
+
+.reviews {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-flow: column;
+	color: #333;
+	font-size: 1em;
+	line-height: 1.31em;
+}
+
+.address {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-flow: column;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+/*The widths are in a percentage!*/
+footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-flow: column;
+	height: 3.13em;
+	border-top: .19em solid #eee;
+	margin: 0 auto;
+	text-align: center;
+      width: 100%;
+}
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: .94em;
 }

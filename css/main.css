@@ -1,5 +1,13 @@
+html {
+  font-size: 16px;
+}
+
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container{
@@ -15,24 +23,24 @@ h3 {
 	font-weight: 700;
 }
 h1 {
-	font-size: 30px;
+	font-size: 1.88em;
 }
 h2 {
-	font-size: 18px;
+	font-size: 1.13em;
 }
 h3 {
-	font-size: 12px;
+	font-size: .75em;
 }
 
 p {
 	font-size: 14px;
-	line-height: 21px;
+	line-height: .88em;
   padding: 0 30px;
 }
 
 /*The widths are in a percentage!*/
 header {
-	height: 110px;
+	height: auto;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 }
@@ -55,7 +63,7 @@ header nav ul {
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 14px;
+	font-size: .88em;
 	padding: 0 10px;
 	display: inline;
 }
@@ -89,7 +97,7 @@ header nav ul li a{
 }
 .main-title p {
 	padding: 0;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 25px;
 }
 
@@ -126,12 +134,12 @@ header nav ul li a{
 
 .reviews {
 	color: #333;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 21px;
 }
 
 .address {
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 24px;
 }
 
@@ -145,5 +153,5 @@ footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #77a466;
-	font-size: 14px;
+	font-size: .88em;
 }

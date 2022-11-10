@@ -191,11 +191,11 @@ footer span {
   }
 
   .reviews {
-  	padding: 0 20px;
+  	padding: 0 30px;
   }
 
   .address {
-    padding: 0 20px;
+    padding: 0 30px;
   }
 
   header h1 {
@@ -215,5 +215,23 @@ footer span {
 /*  Desktop Styles begin   */
 
 @media all and (min-width:1200px){
+  header {
+    flex-flow: row nowrap;
+  }
 
+  header h1 {
+    justify-content: flex-start;
+    border-bottom: none;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  header nav ul li {
+    padding-left: 20px;
+  }
 }

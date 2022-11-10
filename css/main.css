@@ -186,7 +186,7 @@ footer span {
   .section-one,
   .section-two,
   .section-three {
-  	width: 33%;
+  	width: 33.3%;
   	height: auto;
   }
 
@@ -200,6 +200,7 @@ footer span {
 
   header h1 {
     justify-content: center;
+
   }
 
   header h1 span {
@@ -229,6 +230,7 @@ footer span {
     justify-content: center;
     align-items: center;
     padding-top: 20px;
+    width: 40%;
   }
 
   header nav ul li {

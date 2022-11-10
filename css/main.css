@@ -37,9 +37,8 @@ h3 {
 }
 
 p {
-	font-size: 14px;
-	line-height: .88em;
-  /* padding: 0 30px; */
+	font-size: 0.88em;
+	line-height: 21px;
 }
 
 /*The widths are in a percentage!*/
@@ -165,7 +164,7 @@ footer span {
 
 
 /*  Tablet styles begin   */
-@media all and (min-width:768px){
+@media only screen and (min-width:768px){
   .bottom-section {
     display: flex;
     justify-content: space-between;
@@ -215,7 +214,7 @@ footer span {
 
 /*  Desktop Styles begin   */
 
-@media all and (min-width:1200px){
+@media only screen and (min-width:1200px){
   header {
     flex-flow: row nowrap;
   }

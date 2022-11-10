@@ -197,6 +197,18 @@ footer span {
   .address {
     padding: 0 20px;
   }
+
+  header h1 {
+    justify-content: center;
+  }
+
+  header h1 span {
+    padding-right: 10px;
+  }
+
+  footer {
+    width: 100%;
+  }
 }
 
 

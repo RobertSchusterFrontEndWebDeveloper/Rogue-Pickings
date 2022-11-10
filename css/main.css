@@ -130,16 +130,6 @@ header nav ul li a{
 	padding: 10px 0;
 }
 
-/*  .section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-
-.section-two h3,
-.section-three h3 {
-	padding: 10px 30px;
-}
-*/
 .menu {
 	list-style: none;
 	padding: 0;
@@ -171,4 +161,47 @@ footer span {
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: .88em;
+}
+
+
+/*  Tablet styles begin   */
+@media all and (min-width:768px){
+  .bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row nowrap;
+    width: 100%;
+  }
+  .section-two {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+  }
+
+  .section-two h3,
+  .section-three h3 {
+    padding: 10px 30px;
+  }
+
+  .section-one,
+  .section-two,
+  .section-three {
+  	width: 33%;
+  	height: auto;
+  }
+
+  .reviews {
+  	padding: 0 20px;
+  }
+
+  .address {
+    padding: 0 20px;
+  }
+}
+
+
+/*  Desktop Styles begin   */
+
+@media all and (min-width:1200px){
+
 }
